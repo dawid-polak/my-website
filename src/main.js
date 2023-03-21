@@ -1,5 +1,8 @@
 import { createApp } from 'vue'
-import './style.css'
+import './assets/styles/style.css'
 import App from './App.vue'
+import 'animate.css';
 
-createApp(App).mount('#app')
+import router from './router'
+
+createApp(App).use(router).mount('#app')
