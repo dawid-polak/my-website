@@ -13,6 +13,7 @@
     "firebase": "^9.18.0",
     "sass": "^1.59.3",
     "scss": "^0.2.4",
+    "universal-cookie": "^4.0.4",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6"
   },

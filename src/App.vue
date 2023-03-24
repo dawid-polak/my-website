@@ -6,8 +6,22 @@
 </template>
 
 <script>
+import { onMounted } from 'vue';
+import Cookies from 'universal-cookie';
+
 export default {
-     setup() {},
+     setup() {
+         onMounted(() => {
+
+             const cookies = new Cookies();
+            
+            if (!cookies.get('lang')){
+                cookies.set('lang', 'EN');
+            };
+
+        });
+
+     },
 };
 </script>
 
