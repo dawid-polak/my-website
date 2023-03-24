@@ -61,7 +61,7 @@ export default {
                showMenu.value = !showMenu.value;
           };
 
-          return { showMenu, dataMenu, changeLang, abc };
+          return { showMenu, dataMenu, changeLang };
      },
 };
 </script>
