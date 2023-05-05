@@ -1,5 +1,5 @@
 <template>
-     <div @click="scrollToTop" class="fixed bottom-[50px] right-[50px] h-12 w-12 bg-color-A9DCEC h-32 flex justify-center items-center z-50 rounded fixed justify-center items-center cursor-pointer">
+     <div @click="scrollToTop" class="fixed bottom-[50px] right-[50px] h-12 w-12 bg-color-A9DCEC h-12 flex justify-center items-center z-50 rounded fixed justify-center items-center cursor-pointer">
           <img class="w-6 h-6" src="../assets/icons/top.png" alt="arowTop" />
      </div>
 </template>
