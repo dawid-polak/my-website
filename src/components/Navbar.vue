@@ -12,8 +12,8 @@
                     <img class="w-6 h-6 m-2 sm:m-4 animate__animated cursor-pointer" :class="{ animate__fadeInRight: showMenu }" src="../assets/icons/github.png" alt="github" />
                </a>
           </div>
-          <div class="ml-4 sm:ml-10 mt-4">
-               <span v-for="subpage in dataMenu.subpages" :key="subpage" :style="{ 'animation-delay': subpage.delay + 's' }" class="block text-5xl sm:text-6xl font-bold text-color-101B61 m-4 mb-10 animate__animated cursor-pointer item--list-menu" :class="{ animate__fadeInRight: showMenu }">
+          <div class="ml-4 sm:pl-10 mt-5 w-full relative overflow-hidden">
+               <span v-for="subpage in dataMenu.subpages" :key="subpage" :style="{ 'animation-delay': subpage.delay + 's' }" class="block text-5xl sm:text-6xl font-bold text-color-101B61 pl-4 mb-10 animate__animated cursor-pointer item--list-menu" :class="{ animate__fadeInRight: showMenu }">
                     <router-link :to="{ name: subpage.name }">{{ subpage.text }}</router-link>
                </span>
           </div>
