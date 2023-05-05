@@ -1,7 +1,7 @@
 <template>
      <div class="w-full h-full relative flex flex-col items-center">
           <Navbar @lang="handleWriteData"/>
-          <div class="w-4/5 sm:w-3/5 mt-24 sm:mt-48 relative">
+          <div class="w-4/5 sm:w-3/5 mt-24 sm:mt-48 relative overflow-hidden">
                <h1 style="animation-duration: 0.5s" class="text-5xl sm:text-6xl font-bold text-color-101B61 animate__animated animate__fadeInRightBig">{{ dataAbout.title }}<span class="w-3 h-3 ml-[-7px] mb-[-1px] rounded-full bg-color-8002E0 inline-block"></span></h1>
                <hr style="animation-duration: 0.2s" class="text-color-8002E0 bg-color-8002E0 p-[1px] w-28 mt-5 mb-5 animate__animated animate__fadeInRightBig" />
                <p style="animation-delay: 0.5s" class="font-light text-color-101B61 text-xl sm:text-2xl animate__animated animate__fadeIn">
