@@ -21,7 +21,7 @@
           <div class="w-4/5 flex flex h-full justify-center">
                <div class="w-3/4 h-full rounded flex flex-col sm:items-center">
                     <h1 class="text-2xl sm:text-3xl text-color-101B61 font-bold">{{ dataAbout.skills }}</h1>
-                    <ul class="list-disc my-10 text-color-101B61 font-light text-xl flex flex-wrap justify-center">
+                    <ul class="list-disc my-10 text-color-101B61 font-light text-xl flex flex-wrap justify-center relative overflow-hidden">
                          <li v-if="activeAnimationListSkills" style="animation-delay: 0s" class="m-2 ml-10 animate__animated animate__fadeInRightBig">HTML</li>
                          <li v-if="activeAnimationListSkills" style="animation-delay: 0.1s" class="m-2 ml-10 animate__animated animate__fadeInRightBig">CSS</li>
                          <li v-if="activeAnimationListSkills" style="animation-delay: 0.2s" class="m-2 ml-10 animate__animated animate__fadeInRightBig">SCSS</li>
