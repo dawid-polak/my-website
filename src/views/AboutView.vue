@@ -47,7 +47,7 @@
           </div>
           <div class="w-4/5 flex flex-col items-center">
                <span ref="secoundSpanLine" style="animation-delay: 1.5s" class="w-full sm:w-3/5 h-[1px] bg-color-9AA09E block text-color my-5"></span>
-               <p class="text-3xl sm:text-5xl text-color-101B61 cursor-pointer font-semibold underline my-10">{{ dataAbout.cv }}</p>
+               <p class="text-3xl sm:text-5xl text-color-101B61 cursor-pointer font-semibold underline my-10"><a href="https://drive.google.com/file/d/1054cvbNmaUhyUEb1RnE8TSzHVRb942KT/view?usp=share_link" target="_blank">{{ dataAbout.cv }}</a></p>
                <span ref="secoundSpanLine" style="animation-delay: 1.5s" class="w-full md:w-3/5 h-[1px] bg-color-9AA09E block text-color my-5"></span>
           </div>
           <div class="w-4/5 sm:w-3/5 mt-20 self-center">
